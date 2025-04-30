@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   
+    <style>
+        .first{
+            font-size: 25px;;
+        }
+        .main{
+            display:flex;
+            flex-direction: row;
+            flex-wrap: row;
+            justify-content: space-around;
+            background-color: black;
+            color: aliceblue;
+        }
+        .infirst>ul{
+            display:flex;
+            flex-direction: row;
+            flex-wrap: row;
+            justify-content: space-around;
+        }
+        .infirst>ul>li{
+            padding: 30px;
+            list-style: none;
+        }
+        .insecond>ul{
+            display:flex;
+            flex-direction: row;
+            flex-wrap: row;
+            justify-content: space-around;
+        }
+        .insecond>ul>li{
+            padding: 30px;
+            list-style: none;
+        }
+        .image>img{
+            width:100%;
+            height:100%;
+        }
+        .centered{
+            position: absolute;
+            top:60%;
+            right:50%;
+            color:white;
+            font-size: 70px;
+            margin-left:20px;
+            text-align: center;
+        }
+        .top-bottom{
+            position: absolute;
+            bottom:-10%;
+            right:50%;
+            color:white;
+            margin-left:20px;
+            text-align: center;
+            font-size: 20px;
+        }
+        .heading{
+            color:white;
+            text-align: center;
+            font-size:50px;
+        }
+        .ingredi{
+            display:flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+       .div1{
+        color:white;
+        width:400px;
+        font-size: 25px;
+       }
+
+      
+      .grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);   /* 2 columns */
+      grid-template-rows: repeat(3, auto);     /* 3 rows */
+      gap: 20px;
+      padding: 40px;
+      box-sizing: border-box;
+    }
+
+    .box {
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  display: flex; /* Make content side-by-side */
+  gap: 15px;
+  align-items: center;
+}
+
+.box img {
+  width: 250px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 6px;
+  flex-shrink: 0;
+}
+
+.box p {
+  margin: 0;
+  font-size: 14px;
+  color: #333;
+  text-align: left;
+}
+
+.grids{
+    margin-left:500px;
+    display:flex; 
+    width:500px;  
+    flex-direction: row;
+    flex-wrap: wrap; 
+    justify-content:center ;
+}
+.grids {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);  /* 2 columns */
+      grid-template-rows: repeat(3, auto);    /* 3 rows */
+      gap: 20px;
+      padding: 40px;
+      box-sizing: border-box;
+    }
+
+    .grids > div {
+      background-color: #fff;
+      padding: 15px;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      font-size: 18px;
+      font-weight: bold;
+      color: #333;
+    }
+
+    .grids img {
+      width: 150px;
+      height: 100px;
+      object-fit: cover;
+      border-radius: 6px;
+      flex-shrink: 0;
+    }
+    .location{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    
+   .maps{
+    padding-left:100px;
+   }
+    </style>
+</head>
+<body bgcolor="black">
+    <div class="main">
+    <div class="first">
+
+        <h1 style="font-size: 35px;">Pizza Resturant</h1>
+    </div>
+    <div class="infirst">
+        <ul>
+            <li>ABOUT US</li>
+            <li>MENU</Li>
+            <li>BLOGS</li>
+            <li>TESTIMONY</li>
+            <li>FIND US</li>
+            <li>OUR TEAM</li>
+        </ul>
+    </div>
+    <div class="insecond">
+        <ul>
+        <li><i class="fa fa-instagram" style="font-size:24px"></i></li>
+        <li><i class="fa fa-whatsapp" style="font-size:24px"></i></li>
+        <li><i class="fa fa-facebook" style="font-size:24px"></i></li>
+        </ul>
+    </div>
+    </div>
+    <div class="image">
+        <img src="https://tse4.mm.bing.net/th?id=OIP.eKRcna3P-uGZNTQWwxPNrwHaEK&pid=Api&P=0&h=180" alt="Pizza">
+        <div class="centered">Cravings for a chessey Pizza?</div><hr style="color:white;">
+        <div class="top-bottom">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint quisquam maxime doloribus natus, dolorem consectetur minima perspiciatis quidem harum non molestiae reprehenderit expedita assumenda quo doloremque ad, deserunt corrupti veritatis.</div>
+    </div>
+        <h1 class="heading"><u style="color:red;">About Us</u></h1>
+        <div class="ingredi">
+            
+            <div class="div1"><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia omnis assumenda, libero esse aspernatur perspiciatis itaque, repellat, dicta eos fugiat modi saepe nisi? Nulla libero ducimus cum animi nobis commodi.</p></div>
+            <div class="div2"><img src="http://www.simplyscratch.com/wp-content/uploads/2013/02/ingredients1.jpg" alt="ingredients" style="width:500px; height:250px;"></div>
+        
+        </div><br>
+        <br>
+        <br>
+        <h1 class="heading"><u style="color:red;">MENU</u></h1>
+        <div class="menu">
+            <p style="color:white; text-align: center; margin:20px; font-size:25px;">The ingredients include fresh broccoli, olive oil, Parmesan cheese, black pepper, and kosher salt. The image is styled to highlight these ingredients in a rustic, natural setting, emphasizing the simplicity and freshness of the dish.Making a delicious and perfect cheesy pizza at home is much simpler than we think. There are numerous recipes online to make it but over the years this easy recipe has become our family favorite. Try this and you will never want to order a pizza again. You will be in love with your homemade pizza.​</p>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+
+
+        <div class="grid">
+            <div class="box"><img src="https://tse3.mm.bing.net/th?id=OIP.fbt6Hoe4yABxC60ZPVIrVAHaEK&pid=Api&P=0&h=180" alt="pizza1">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, iste eligendi maxime sit quasi temporibus. Animi odio eveniet sapiente eligendi, quam deserunt nisi obcaecati ex natus, optio, temporibus eius. Ullam.</p></div>
+            <div class="box"><img src="https://tse3.mm.bing.net/th?id=OIP.OyAbBNc8yMCPSETU5aiRHwHaHa&pid=Api&P=0&h=180" alt="bread"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis perspiciatis labore laboriosam aut voluptate aliquid tempore ex, nostrum, sit voluptatem expedita eius adipisci ipsum dolore vitae animi error incidunt quae.</p></div>
+            <div class="box"><img src="https://tse2.mm.bing.net/th?id=OIP.hBKgIWAWs2nP55_zgUJT_wHaFF&pid=Api&P=0&h=180" alt="piz"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit esse voluptatibus nulla molestias molestiae, quidem ab quis in adipisci eaque quod ipsum cum nobis laudantium illum est error id impedit.</p></div>
+            <div class="box"><img src="https://tse3.mm.bing.net/th?id=OIP.uv5FehGZSjxU2c62IBg-xQHaE7&pid=Api&P=0&h=180" alt=""><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus, laborum dignissimos! Sapiente commodi quisquam obcaecati vero eveniet earum. Unde alias corporis quae accusamus. Iusto magni, eius porro commodi quibusdam aliquam.</p></div>
+            <div class="box"><img src="https://tse4.mm.bing.net/th?id=OIP.h8Lgs1bpDZ9Uw9YeYRvI8QHaEK&pid=Api&P=0&h=180" alt=""><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor nisi ea reiciendis veniam aliquid commodi, quaerat cupiditate laborum officiis odit. Sit dicta accusamus provident commodi labore debitis saepe libero ab.</p></div>
+            <div class="box"><img src="https://tse3.mm.bing.net/th?id=OIP.7iWtUPVp2LYqWwjWBkG0xgHaE8&pid=Api&P=0&h=180" alt=""><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil eius neque explicabo delectus accusamus mollitia aspernatur, dicta hic omnis fugit illo suscipit nemo debitis rerum dolorum dolores? At, ipsa sapiente.</p></div>
+            
+        </div>
+
+        <h1 style="color:red; text-align: center;font-size: 40px;"><u>CAROSEL</u></h1>
+        <div>
+            <img style="width:800px; height:600px; margin-left:400px;"src="https://tse3.mm.bing.net/th?id=OIP.uv5FehGZSjxU2c62IBg-xQHaE7&pid=Api&P=0&h=180" alt="">
+        </div>
+        <h1 style="color:red; text-align: center;font-size: 40px;"><u>More Images</u></h1>
+
+        <div class="grids">
+            <div class="box1"><img src="https://tse2.mm.bing.net/th?id=OIP.RWaaZCnAJwE8O0FxwD7y0AHaEo&pid=Api&P=0&h=180" alt="">a</div>
+            <div class="box2"><img src="https://tse1.mm.bing.net/th?id=OIP.OZny5F6g0QAQPLsU_4HnEAHaE8&pid=Api&P=0&h=180" alt="">a</div>
+            <div class="box3"><img src="https://tse1.mm.bing.net/th?id=OIP.2dhr5Ln6cMHIu9SmwE_uBgHaE7&pid=Api&P=0&h=180" alt="">b</div>
+            <div class="box4"><img src="https://tse1.mm.bing.net/th?id=OIP.yxGznf6LVJpn8MaRyA6GhQHaE8&pid=Api&P=0&h=180" alt="">b</div>
+            <div class="box5"><img src="https://tse4.mm.bing.net/th?id=OIP.uDMYL37wVij2wVrHt0-7cwHaEW&pid=Api&P=0&h=180" alt="">c</div>
+            <div class="box6"><img src="https://tse4.mm.bing.net/th?id=OIP.PmpaoR5D_87hH57HQvr3dQHaE8&pid=Api&P=0&h=180" alt="">c</div>
+
+        </div>
+
+        <h1 style="color:red; text-align: center;font-size: 40px;"><u>Find Us</u></h1>
+        <div style="color:white;" class="location">
+            <div style="color:white;margin-left:100px;margin-top:100px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error sequi tempore fugit aliquam iure adipisci unde sapiente nostrum dignissimos. Quos voluptates rerum fuga quaerat vero voluptatibus quam pariatur placeat possimus?
+            <ul>
+                <li style="color:white;"><i class='fas fa-map-marker-alt' style='font-size:24px;color:white;'></i>Location xyz delhi</li>
+                <li style="color:white;"><i class="fa fa-instagram" style="font-size:24px ;color:white;"></i>1234567890</li>
+            </ul>
+            </div>
+            <div class="maps">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d30451.98564989163!2d78.3843328!3d17.4358528!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1746018416102!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+
+        <footer>
+            <ul>
+                <li>Email : sahithipinky23@gmail.com</li>
+            </ul>
+        </footer>
+</body>
+</html>
